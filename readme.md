@@ -1,16 +1,16 @@
 Colored calc
 
-# check if connection succeeds
+## check if connection succeeds
 
 ```
 ssh -v -i ~/.ssh/<private-key-filename> -T git@github.com
 ```
-# start ssh-agent
+## start ssh-agent
 ```
 eval `ssh-agent -s`
 ```
 
-# add your key to ssh-agent
+## add your key to ssh-agent
 ```
 ssh-add ~/.ssh/<private-key-filename>
 ```
