@@ -7,7 +7,7 @@ ssh -v -i ~/.ssh/<private-key-filename> -T git@github.com
 ```
 ## start ssh-agent
 ```
-eval `ssh-agent -s`
+eval `ssh-agent -s`  // has to be backticks else sinlge quotes won't work
 ```
 
 ## add your key to ssh-agent
