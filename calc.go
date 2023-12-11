@@ -17,7 +17,7 @@ func Multiply(a, b float64) float64 {
 
 func Divide(a, b int) (int, error) {
 	if b == 0 {
-		return 0, fmt.Errorf("calc.Divide: provided %q for denominator %w", b, ErrNotDivisibleByZero)
+		return 0, fmt.Errorf("calc.Divide: provided '%d' for denominator %w", b, ErrNotDivisibleByZero)
 	}
 
 	return a / b, nil
