@@ -26,3 +26,7 @@ func Divide(a, b int) (int, error) {
 func Sub(a, b int) int {
 	return a - b
 }
+
+func Exp(a, b int) int {
+	return a ^ b
+}
