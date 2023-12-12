@@ -3,12 +3,14 @@ package calc
 import (
 	"errors"
 	"fmt"
+
+	"github.com/fatih/color"
 )
 
 var ErrNotDivisibleByZero = errors.New("not divisible by zero")
 
-func Add(a, b float64) float64 {
-	return a + b
+func Add(a, b float64) (float64, color.Attribute) {
+	return a + b, color.FgGreen
 }
 
 func Multiply(a, b float64) float64 {

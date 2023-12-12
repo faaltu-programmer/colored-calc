@@ -17,6 +17,8 @@ ssh-add ~/.ssh/<private-key-filename>
 
 [reference](https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278)
 
+[ssh agent forwarding](https://www.ezeelogin.com/kb/article/ssh-agent-how-to-configure-ssh-agent-forwarding-493.html)
+
 ## add an annotated git tag
 
 ```
